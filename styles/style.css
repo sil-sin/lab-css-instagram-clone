@@ -12,7 +12,7 @@ body {
 }
 
 header{
-  background-color: #06365f ;
+  background-color:  #1c5380 ;
   height: 15rem;
   margin-bottom: 30px;
 
@@ -21,7 +21,8 @@ header img{
 width: 130rem;
 height: max-content;
 margin-left: -100px;
-margin-top: -120px;
+margin-top: -20px;
+opacity: 0.3;
 }
 
 .logo{
@@ -47,6 +48,7 @@ margin-top: -120px;
   justify-content: space-around;
 }
  #text{
+   border: solid 1px rgb(190, 188, 188);
   width: 450px;
   background-color: white;
   display: flex;
