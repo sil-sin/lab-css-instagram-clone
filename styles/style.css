@@ -7,4 +7,102 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background-color: white;
+}
+
+header{
+  background-color: #06365f ;
+  height: 15rem;
+  margin-bottom: 30px;
+
+}
+header img{
+width: 130rem;
+height: max-content;
+margin-left: -100px;
+margin-top: -120px;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+.section1{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#phones{
+ 
+  margin-top: -200px;
+}
+.textbox{
+
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+ #text{
+  width: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+   padding: 10px;
+
+ }
+#text h2{
+  color: #1c5380;
+  text-align: center;
+  
+}
+#text p{
+  margin: 15px;
+}
+.logo button img{
+  margin-right: 10px;
+}
+.logo button{
+  align-items: center;
+  background-color: #356791;
+  color: white;
+  font-weight: 1000;
+  display: flex;
+  padding: 10px;
+  border: solid 1px #164266;
+  border-radius: 8px;
+
+
+}
+#buttons{
+display: flex;
+justify-content: space-around;
+margin-top: -70px;
+}
+#buttons a{
+  margin: 10px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+align-items: center;
+margin-top: 32px;
+}
+footer a{
+ color: #1c5380 ;
+  margin: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer span{
+  margin-left: 15px;
+  font-weight: bold;
+  color: darkslategrey;
+  text-transform: uppercase;
 }
